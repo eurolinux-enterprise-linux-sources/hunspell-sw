@@ -2,7 +2,7 @@ Name: hunspell-sw
 Summary: Swahili hunspell dictionaries
 %define upstreamid 20050819
 Version: 0.%{upstreamid}
-Release: 8%{?dist}
+Release: 9%{?dist}
 Group: Applications/Text
 Source: http://www.it46.se/downloads/openoffice/dictionary/dictionary_myspell_sw_TZ_1.1.tar.gz
 URL: http://www.it46.se
@@ -52,6 +52,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/myspell/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.20050819-9
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 0.20050819-8
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
